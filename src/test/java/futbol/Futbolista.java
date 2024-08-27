@@ -28,13 +28,8 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	 
 	 //MÉTODO PARA COMPARAR SI DOS FUTBOLISTAS SON IGUALES
 	 public boolean equals(Futbolista f) {	 
-		 boolean retorno = false;
 		 
-		 if (this ==f) {
-			 retorno = true;
-		 }
-		 
-		 return retorno;
+		 return this == f;
 	 }
 	 
 	 //MÉTODO ABSTRACTO 
