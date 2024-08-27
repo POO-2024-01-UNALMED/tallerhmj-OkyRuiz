@@ -18,9 +18,8 @@ public class Portero extends Futbolista{
     public int compareTo(Futbolista f) {
         if (f instanceof Portero) {
             return Math.abs(this.golesRecibidos - ((Portero) f).golesRecibidos);
-        } else {
-            throw new ClassCastException("No se puede comparar un Portero con un Jugador");
-        }
+        }    
+        return this.golesRecibidos;
     }
     
     // MÉTODO toString
