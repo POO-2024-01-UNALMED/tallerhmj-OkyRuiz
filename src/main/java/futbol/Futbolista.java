@@ -28,7 +28,7 @@ public abstract class Futbolista implements Comparable{
     }
     
     //MÉTODO ABSTRACTO
-    abstract public boolean jugarConLasManos();
+    public abstract boolean jugarConLasManos();
 
     @Override
     public String toString() {
